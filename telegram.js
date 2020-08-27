@@ -1,7 +1,6 @@
 /**
  * TG频道图片推送
- * @author: Peng-YM
- * 更新地址：https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/telegram.js
+ * https://raw.githubusercontent.com/sngxpro/scripts/master/telegram.js
  * 使用方法：
  * 1. 在channels里面添加频道的id，比如说对于频道https://t.me/ABCD，则填入"ABCD"
  * 比如 channels = ["ABCD", "CDEF"]
