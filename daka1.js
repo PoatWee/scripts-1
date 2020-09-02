@@ -1,25 +1,10 @@
 /*ziye
 
-说明：以天天打卡赚钱为例的打卡模版，可以抓包然后替换以下内容来制作其他打卡脚本
-
-
-需要替换的内容如下，先替换长的，再替换短的，自己用电脑或者KODE软件替换，下载链接https://apps.apple.com/cn/app/koder-code-editor/id1447489375
-
-
-
-pd.xuexgchn.xyz  ph0001.hezyq.com
-天天打卡赚钱   早起打卡1
-cs = 10   20
-xj = 1
-dakazqdkurl   daka1dkurl
-i=2  597
-dakazq  daka1
-
-手动替换
-konking\.yunjia\.shop
+说明：
 
 一，将hostname复制粘贴进配置文件
 二，将重写复制到 rewrite_local 下，进对应小程序获取ck，
+三，小程序名字叫每天早起打卡赚钱
 
 
 功能如下：
@@ -33,15 +18,13 @@ konking\.yunjia\.shop
 
 圈X
 
-1、hostname= pd.xuexgchn.xyz
+hostname= pd.xuexgchn.xyz
 
+重写：
+https:\/\/ph0001\.hezyq\.com\/* url script-request-header https://raw.githubusercontent.com/sngxpro/scripts/master/daka1.js
 
-
-
-圈x:本地
-https:\/\/ph0001\.hezyq\.com\/* url script-request-header daka1.js
-
-1 0 * * * daka1.js
+task：
+1 0 * * * https://raw.githubusercontent.com/sngxpro/scripts/master/daka1.js, tag=每天早起打卡小程序, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/orz.png
 
 
 
