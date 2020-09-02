@@ -11,8 +11,8 @@
 重写：
 https:\/\/zm\.shujumagician\.com\/* url script-request-header https://raw.githubusercontent.com/sngxpro/scripts/master/zdk.js
 
-task：
-0 1/3 0-23 * * ? https://raw.githubusercontent.com/sngxpro/scripts/master/zdk.js, tag=早打卡赚钱自动撸, img-url=https://raw.githubusercontent.com/sngxpro/icon/master/zdk.png
+task（15分钟运行一次，请自改喜欢的节奏）：
+0 1/15 0-23 * * ? https://raw.githubusercontent.com/sngxpro/scripts/master/zdk.js, tag=早打卡赚钱自动撸
 
 hostname = zm.shujumagician.com
 
