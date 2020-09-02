@@ -21,10 +21,10 @@ hostname= w3.ilovecoupon.top
 
 
 重写：
-https:\/\/w3\.ilovecoupon\.top\/* url script-request-header daka2.js
+https:\/\/w3\.ilovecoupon\.top\/* url script-request-header https://raw.githubusercontent.com/sngxpro/scripts/master/daka2.js
 
 task：
-1 0 * * * daka2.js, tag=每天早起打卡小程序2
+1 0 * * * https://raw.githubusercontent.com/sngxpro/scripts/master/daka2.js, tag=每天早起打卡小程序2
 
 
 
