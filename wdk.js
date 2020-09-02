@@ -13,8 +13,8 @@
 重写：
 https:\/\/zm\.shujumagician\.com\/* url script-request-header https://raw.githubusercontent.com/sngxpro/scripts/master/wdk.js
 
-task：
-0 1/3 0-23 * * ? https://raw.githubusercontent.com/sngxpro/scripts/master/wdk.js, tag=微打卡自动撸
+task（默认15分钟一次，请自改喜欢的频率）：
+0 1/15 0-23 * * ? https://raw.githubusercontent.com/sngxpro/scripts/master/wdk.js, tag=微打卡自动撸
 
 hostname = zm.shujumagician.com
 
