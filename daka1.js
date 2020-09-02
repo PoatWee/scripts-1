@@ -1,4 +1,4 @@
-/*ziye
+/*微信公众号：少年歌行PRO
 
 说明：
 
@@ -23,7 +23,7 @@ hostname= pd.xuexgchn.xyz
 重写：
 https:\/\/ph0001\.hezyq\.com\/* url script-request-header https://raw.githubusercontent.com/sngxpro/scripts/master/daka1.js
 
-task：
+task（每小时运行1次，请自己改喜欢的频率）：
 1 0 * * * https://raw.githubusercontent.com/sngxpro/scripts/master/daka1.js, tag=每天早起打卡小程序, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/orz.png
 
 
