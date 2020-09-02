@@ -28,6 +28,10 @@
 
 ![Image text](https://raw.githubusercontent.com/sngxpro/scripts/master/zdk.png)
 
+## daka1  脚本对应小程序：
+
+## 没有提供二维码，微信搜索：，每日早起打卡赚钱
+
 ## daka2  脚本对应小程序：
 
 ![Image text](https://raw.githubusercontent.com/sngxpro/scripts/master/daka2.png)
