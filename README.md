@@ -11,6 +11,10 @@
 
 ![Image text](https://raw.githubusercontent.com/sngxpro/scripts/master/wdk.png)
 
-### daka2  脚本对应小程序：
+## zdk 脚本对应小程序
+
+![Image text](https://raw.githubusercontent.com/sngxpro/scripts/master/zdk.png)
+
+## daka2  脚本对应小程序：
 
 ![Image text](https://raw.githubusercontent.com/sngxpro/scripts/master/daka2.png)
