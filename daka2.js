@@ -5,7 +5,7 @@
 三，小程序名字叫365打卡赚钱
 
 小程序二维码地址：
-
+https://raw.githubusercontent.com/sngxpro/scripts/master/daka2.png
 
 功能如下：
 1.每日打卡，设置了开关，完成任务不再打卡
