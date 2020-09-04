@@ -1,31 +1,14 @@
-/*ziye
-
-说明：以音乐打卡为例的打卡模版，可以抓包然后替换以下内容来制作其他打卡脚本
-
-
-需要替换的内容如下，先替换长的，再替换短的，自己用电脑或者KODE软件替换，下载链接https://apps.apple.com/cn/app/koder-code-editor/id1447489375
-
-
-
-www.baimaa.com
-音乐打卡
-cs = 12
-xj = 1
-yydkurl
-i=11
-yydk
-
-手动替换
-www\.baimaa\.com
-
+/*微信公众号：少年歌行PRO
+说明：
 一，将hostname复制粘贴进配置文件
 二，将重写复制到 rewrite_local 下，进对应小程序获取ck，
-
-
+三，小程序名字叫每天早起打卡赚钱
 功能如下：
 1.每日打卡，设置了开关，完成任务不再打卡
 2.打卡币统计，
 3.现金统计，自动提现
+***建议设置每小时运行一次 
+
 
 
 ***建议设置每小时运行一次 
@@ -33,21 +16,16 @@ www\.baimaa\.com
 
 圈X
 
-1、hostname= www.baimaa.com,
+[mitm]
+hostname= www.baimaa.com
 
+[rewrite local]
+https:\/\/www\.baimaa\.com\/* url script-request-header https://raw.githubusercontent.com/sngxpro/scripts/master/yydkziye.js
 
+[task local]
+0 1/15 0-23 * * ? https://raw.githubusercontent.com/sngxpro/scripts/master/yydkziye.js, tag=音乐打卡赚钱小程序自动 
 
-surge:本地
-slw打卡 = type=http-request,pattern=^ https:\/\/www\.baimaa\.com\/*,requires-body=1,max-size=0,script-path= yydkziye.js
-
-
-圈x:本地
-https:\/\/www\.baimaa\.com\/* url script-request-header yydkziye.js
-
-loon:本地
-http-request ^ https:\/\/www\.baimaa\.com\/* script-path= yydkziye.js, requires-body=true, timeout=10, tag=打卡
-
-
+默认设置的15分钟打卡一次，可打20次，请自行修改喜欢的频率
 
 
 三，添加重写，然后打开以下对应程序，获取ck后注释掉
