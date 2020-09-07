@@ -1,5 +1,5 @@
-var body = $response.body;
+let obj = JSON.parse($response.body);
 
-body=body.replace(/vipstatus\":\d/g,'vipstatus":1').replace(/expiration_time\":\"0000-00-00\",'expiration_time\":\"2029-05-01\"');
-
-$done({body});
+obj.value.rules = {"expiration_time":2029-05-01,"vipstatus":1};
+  
+$done({body: JSON.stringify(obj)});
