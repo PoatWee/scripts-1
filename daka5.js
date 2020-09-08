@@ -15,10 +15,10 @@
 hostname= xx.cqxygzs.cn,
 
 重写：
-https:\/\/xx\.cqxygzs\.cn\/* url script-request-header daka5.js
+https:\/\/xx\.cqxygzs\.cn\/* url script-request-header https://raw.githubusercontent.com/sngxpro/scripts/master/daka5.js
 
 task（默认设置15分钟一次，请自改喜欢的频率）
-0 1/15 0-23 * * ? daka5.js
+0 1/15 0-23 * * ? https://raw.githubusercontent.com/sngxpro/scripts/master/daka5.js
 
 
 
