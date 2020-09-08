@@ -5,6 +5,7 @@
 仓库地址：https://github.com/sngxpro/scripts
 
 *脚本使用说明：
+【坚持打卡赚钱】小程序自动打卡返利，搜索对应小程序获取cookie
 
 以圈x为例
 
