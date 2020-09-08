@@ -2,7 +2,7 @@
 说明：
 一，将hostname复制粘贴进配置文件
 二，将重写复制到 rewrite_local 下，进对应小程序获取ck，
-三，小程序名字叫365打卡赚钱
+三，小程序名字我忘了
 
 小程序二维码地址：
 
@@ -21,10 +21,10 @@ hostname= pd.xuexgchn.xyz
 
 
 重写：
-^https:\/\/pd\.xuexgchn\.xyz\/* url script-request-header daka3.js
+^https:\/\/pd\.xuexgchn\.xyz\/* url script-request-header https://raw.githubusercontent.com/sngxpro/scripts/master/daka3.js
 
 task(默认15分钟一次，请自改喜欢的节奏)：
-0 1/15 0-23 * * ? daka3.js, tag=每天早起打卡小程序3
+0 1/15 0-23 * * ? https://raw.githubusercontent.com/sngxpro/scripts/master/daka3.js, tag=每天早起打卡小程序3
 
 
 
