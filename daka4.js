@@ -9,10 +9,10 @@
 以圈x为例
 
 重写：
-https:\/\/zm\.shujumagician\.com\/* url script-request-header daka4.js
+https:\/\/zm\.shujumagician\.com\/* url script-request-header https://raw.githubusercontent.com/sngxpro/scripts/master/daka4.js
 
 task(默认15分钟一次，请自改喜欢的节奏)：：
-0 1/15 0-23 * * ? daka4.js, tag=早打卡赚钱4
+0 1/15 0-23 * * ? https://raw.githubusercontent.com/sngxpro/scripts/master/daka4.js, tag=早打卡赚钱4
 
 hostname = zm.shujumagician.com
 
