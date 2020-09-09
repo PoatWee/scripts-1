@@ -18,7 +18,7 @@
 
 圈X
 
-hostname= pd.xuexgchn.xyz
+hostname= ph0001.hezyq.com
 
 重写：
 https:\/\/ph0001\.hezyq\.com\/* url script-request-header https://raw.githubusercontent.com/sngxpro/scripts/master/daka1.js
