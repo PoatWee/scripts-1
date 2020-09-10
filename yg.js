@@ -4,7 +4,7 @@ Quantumult X 脚本:
 
 [rewrite_local]
 # Gear Unlock Pro （by LTribe）
-^https:\/\/moon\.mxnode\.cn\/light\/dispatch\/v1\?cmd\=status\&.+ url script-response-body yg.js
+^https:\/\/moon\.mxnode\.cn\/light\/dispatch\/v1\?cmd\=status\&.+ url script-response-body https://raw.githubusercontent.com/sngxpro/scripts/master/yg.js
 
 [mitm]
 hostname = buy.itunes.apple.com,
